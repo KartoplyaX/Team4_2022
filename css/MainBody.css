@@ -1,0 +1,22 @@
+main{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    /* min-height: calc(100vh - 418px - 51px); */
+}
+article{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+article:last-child{
+    margin-bottom: 0;
+}
+article h3{
+    margin: 10px 0 25px 0;
+}
+article p{
+    margin-top: 16px;
+    line-height: 24px;
+}

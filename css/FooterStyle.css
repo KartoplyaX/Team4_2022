@@ -1,0 +1,238 @@
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #222831;
+    color: whitesmoke;
+    padding: 100px 0 30px;
+    border-top-left-radius: 150px;
+    font-size: 14px;
+    line-height: 20px;
+    
+    /* background: radial-gradient(circle, rgba(170,75,96,1) 0%, rgba(59,141,153,1) 50%, rgba(252,176,69,1) 100%); */
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.column{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.column:nth-child(2), .column:nth-child(3){
+    flex-basis: 15%;
+}
+.company__name{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.column h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email__id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+}
+ul li{
+    margin-bottom: 12px;
+}
+ul li a{
+    color: whitesmoke;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .Mail{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background:transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form .Send{
+    font-size: 16px;
+    color: whitesmoke;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background:#767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving {
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    footer{
+        bottom: unset;
+    }
+    .column{
+        flex-basis: 100%;
+    }
+    .column:nth-child(2), .column:nth-child(3){
+        flex-basis: 100%;
+    }
+}
+/* footer{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: #222831;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: whitesmoke;
+    margin-bottom: 0%;
+}
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer__content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer__content p{
+    max-width: 550px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: palevioletred;
+}
+.footer__bottom{
+    background-color: rgb(42, 25, 33);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer__bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer__bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+} */
+
+/* footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #222831;
+    color: whitesmoke;
+    display: flex;
+}
+footer div{
+    text-align: center;
+}
+footer .column-2{
+    flex-grow: 2;
+}
+footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing:1px;
+}
+.column-1 a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+form input{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border:none
+}
+form button{
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+} */
