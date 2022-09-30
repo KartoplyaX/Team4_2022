@@ -30,7 +30,9 @@
     </header>
 
     <main>
-        <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
+        <img id="output" src="" width="200" height="200">
+
+        <input name="photo" type="file" accept="image/*" onchange="document.getElementById('output').src = window.URL.createObjectURL(this.files[0])">
     </main>
 
    
