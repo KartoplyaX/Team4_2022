@@ -6,7 +6,10 @@ ul{
 }
 header{
     display: flex;
-    background-color: #222831;
+    background-color: #6f5e53;
+    /*background-color: #8fc0a9; first optionnnnnnnnnnnnnnnnnnnnn*/
+    /*background-color: #6f5e53; second optionnnnnnnnnnnnnnnnnnnnn*/
+    /*background-color: #3587a4; third optionnnnnnnnnnnnnnnnnnnnn*/
     justify-content: space-around;
     padding: 1rem 0;
     align-items: center;
